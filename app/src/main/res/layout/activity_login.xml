@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:fancy="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".Activities.LoginActivity"
+    android:background="@drawable/carbackground">
+
+
+
+    <EditText
+        android:id="@+id/loignEmailEditText"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="29dp"
+        android:hint="@string/login_email"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/loginPasswordEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/loignEmailEditText"
+        android:layout_alignStart="@+id/loignEmailEditText"
+        android:layout_below="@+id/loignEmailEditText"
+        android:layout_marginTop="41dp"
+        android:ems="10"
+        android:hint="@string/login_password"
+        android:inputType="textPassword" />
+
+    <CheckBox
+        android:id="@+id/stayLoggedInCheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/forgotPasswordEmail"
+        android:layout_below="@+id/forgotPasswordEmail"
+        android:layout_marginTop="29dp"
+        android:checked="true"
+        android:text="@string/login_stay_logged_in" />
+
+    <TextView
+        android:id="@+id/forgotPasswordEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/logInButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="27dp"
+        android:clickable="true"
+        android:text="@string/login_forgot_password"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#008888" />
+
+   <!-- <Button
+        android:id="@+id/logInButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/loginPasswordEditText"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/loginPasswordEditText"
+        android:layout_marginTop="30dp"
+        android:text="@string/login_button"
+        android:background="#008888"
+        android:textColor="#FFFFFF" />-->
+
+    <mehdi.sakout.fancybuttons.FancyButton
+        android:id="@+id/logInButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="10dp"
+        fancy:fb_borderColor="#FFFFFF"
+        fancy:fb_borderWidth="1dp"
+        fancy:fb_defaultColor="#008888"
+        fancy:fb_focusColor="#008800"
+        fancy:fb_iconPosition="bottom"
+        fancy:fb_radius="30dp"
+        fancy:fb_text="LOG IN"
+        fancy:fb_textColor="#FFFFFF"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignEnd="@+id/loginPasswordEditText" />
+
+
+    <!--<Button
+        android:id="@+id/registerButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/logInButton"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/stayLoggedInCheckBox"
+        android:layout_marginTop="27dp"
+        android:text="@string/login_register"
+        android:textColor="#FFFFFF"
+        android:background="#008888" />-->
+
+
+    <mehdi.sakout.fancybuttons.FancyButton
+        android:id="@+id/registerButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="10dp"
+        fancy:fb_borderColor="#FFFFFF"
+        fancy:fb_borderWidth="1dp"
+        fancy:fb_defaultColor="#66CCFF"
+        fancy:fb_focusColor="#66CCAA"
+        fancy:fb_iconPosition="bottom"
+        fancy:fb_radius="30dp"
+        fancy:fb_text="REGISTER"
+        fancy:fb_textColor="#FFFFFF"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignEnd="@+id/loginPasswordEditText" />
+
+
+
+
+
+
+</RelativeLayout>

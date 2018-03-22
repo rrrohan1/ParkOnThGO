@@ -1,0 +1,132 @@
+<resources>
+
+
+    <string name="app_name">ParkOnTheGo</string>
+    <string name="title_activity_home_screen">HomeScreenActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="action_save">Save</string>
+
+    <string name="action_cancel">CANCEL</string>
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_account_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+    <string name="pref_titl44e_vibrate">Vibrate</string>
+    <string name="title_activity_locations_on_map">Map</string>
+
+    <string name="no_network"> Plese note network not available, Please check network</string>
+
+    <string name="reg_first_name">First Name</string>
+    <string name="reg_last_name">Last Name</string>
+    <string name="reg_email">Email</string>
+    <string name="reg_password">Password</string>
+    <string name="reg_confirm_password">Confirm password</string>
+
+    <string name="confirmation_end_date">05/19/2016</string>
+    <string name="confirmation_start_time">05:00 PM</string>
+    <string name="confirmation_start_date">05/19/2016</string>
+    <string name="confirmation_end_time">09:00 PM</string>
+    <string name="confirmation_location">431, Lafayette Street, Santa Clara, CA 95051</string>
+    <string name="confirmation_total_time">4 hours</string>
+    <string name="confirmation_price_per_hr">$4</string>
+    <string name="confirmation_total_price">$16</string>
+
+    <string name="forgot_password_email">Email</string>
+    <string name="settings_first_name">Test</string>
+    <string name="settings_last_name">test</string>
+    <string name="settings_email">test@scu.edu</string>
+
+    <string name="start_reservation_start_time">5:00 PM</string>
+    <string name="start_reservation_end_time">9:00 PM</string>
+
+    <string name="home_start_date">05/19/2016</string>
+    <string name="home_start_time">22:40</string>
+    <string name="home_end_date">05/20/2016</string>
+    <string name="home_end_time">3:40</string>
+
+    <string name="stop_reservation_start_time">5:00 PM</string>
+    <string name="stop_reservation_end_time">9:00 PM</string>
+
+    <string name="login_email">Email</string>
+    <string name="login_password">Password</string>
+    <string name="login_stay_logged_in">Stay Logged In</string>
+    <string name="login_forgot_password">Forgot Password?</string>
+    <string name="login_button">Log In</string>
+    <string name="login_register">Register</string>
+    <string name="select_location">Location</string>
+    <string name="price">Price:</string>
+    <string name="title_activity_reservations">ReservationsActivity</string>
+    <string name="title_activity_setting">SettingActivity</string>
+    <string name="title_activity_help">HelpActivity</string>
+
+    <string name="userName">user name</string>
+    <string name="email">email</string>
+    <string name="setting_first_name">First Name</string>
+    <string name="setting_last_name">Last Name</string>
+    <string name="setting_email">Email</string>
+    <string name="loading_data">Processing</string>
+
+</resources>
